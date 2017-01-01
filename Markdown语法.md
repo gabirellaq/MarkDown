@@ -53,8 +53,7 @@ HTML中所谓的code，实现方式有两种
     <p>hello 2017</p>
 <pre>
 <code>
-var x=5;
-document.write('x')
+\<p\>hello world \</p\>
 </code>
 </pre>
 
@@ -68,4 +67,4 @@ document.write('x')
 ###下划线
 * 在空白行下方添加三条‘-’横线。
 
- ---
+- - -
