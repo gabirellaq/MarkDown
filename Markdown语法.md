@@ -31,11 +31,11 @@ markdown中右两种方式，实现链接，分别问内联方式和引用方式
 
 ###图片
 图片的处理方式和链接的处理方式，非常的类似
-* 内联方式：![alt text](/path/to/img.jpg "Title")
-* example:![联系素材](markdownM.png)
+* 内联方式：`![alt text](/path/to/img.jpg "Title")`
+*  `example:![联系素材](markdownM.png)`
 * 引用方式:
-![alt text][id]
-[id]:/path/to/img.jpg "Title"
+`![alt text][id]`
+`[id]:/path/to/img.jpg "Title"`
 
 ###代码
 HTML中所谓的code，实现方式有两种
@@ -55,5 +55,3 @@ HTML中所谓的code，实现方式有两种
 [^hello]:hi
 ###下划线
 * 在空白行下方添加三条‘-’横线。
-
----
