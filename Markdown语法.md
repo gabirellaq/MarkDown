@@ -47,14 +47,14 @@ markdown中右两种方式，实现链接，分别问内联方式和引用方式
 ###代码
 HTML中所谓的code，实现方式有两种
 * 第一种：简单文字出现一个代码框。使用`<blockquote>`,(`注意不是单引号，而是ESC键下的一个按键`)
-* 第二种： 大片文字需要实现代码框。使用tab和四个空格
-
+* 第二种： 大片文字需要实现代码框。使用tab和四个空格。
     <p>hello 2017</p>
     <p>hello 2017</p>
     <p>hello 2017</p>
 <pre>
 <code>
-<p>hello 2017</p>
+var x=5;
+document.write('x')
 </code>
 </pre>
 
