@@ -32,26 +32,25 @@ markdown中右两种方式，实现链接，分别问内联方式和引用方式
 ###图片
 图片的处理方式和链接的处理方式，非常的类似
 * 内联方式：`![alt text](/path/to/img.jpg "Title")`
-*  `example:![联系素材](markdownM.png)`
+*  example:`![联系素材](markdownM.png)`
 * 引用方式:
-`![alt text][id]`
+`![alt text][id]`<br>
 `[id]:/path/to/img.jpg "Title"`
 
 ###代码
 HTML中所谓的code，实现方式有两种
 * 第一种：简单文字出现一个代码框。使用`<blockquote>`,(`注意不是单引号，而是ESC键下的一个按键`)
 * 第二种： 大片文字需要实现代码框。使用tab和四个空格
-`<blockquote>`
-            <html>
-            <head></head>
-            <body>
-            <h1>hello 2017</h1>
-            </body>
-            </html>
-`</blockquote>`
+        >     <html>
+        >    <head></head>
+        >   <body>
+        > <h1>hello 2017</h1>
+        > </body>
+        ></html>
 ###脚注
 * 实现方式如下
  hello[^hello]
 [^hello]:hi
 ###下划线
 * 在空白行下方添加三条‘-’横线。
+  ---
