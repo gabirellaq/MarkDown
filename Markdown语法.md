@@ -7,6 +7,12 @@
 ###块注释
 （blockquote）
 * 通过在文字开头加“>”表示块注释。（当 > 和文字之间添加五个Blank时，块注释的文字会有变化。）
+>   <html>
+>   <head></head>
+>   <body>
+>   <h1>hello 2017</h1>
+>   </body>
+>   </html>
 
 ###斜体
 * *将需要设置为斜体的文字两端使用1个“*”或者“_”夹起来。*
@@ -33,7 +39,7 @@ markdown中右两种方式，实现链接，分别问内联方式和引用方式
 图片的处理方式和链接的处理方式，非常的类似
 * 内联方式：`![alt text](/path/to/img.jpg "Title")`
 *  example:`![联系素材](markdownM.png)`
-* 引用方式:
+* 引用方式:<br>
 `![alt text][id]`<br>
 `[id]:/path/to/img.jpg "Title"`
 
@@ -41,12 +47,6 @@ markdown中右两种方式，实现链接，分别问内联方式和引用方式
 HTML中所谓的code，实现方式有两种
 * 第一种：简单文字出现一个代码框。使用`<blockquote>`,(`注意不是单引号，而是ESC键下的一个按键`)
 * 第二种： 大片文字需要实现代码框。使用tab和四个空格
-        >     <html>
-        >    <head></head>
-        >   <body>
-        > <h1>hello 2017</h1>
-        > </body>
-        ></html>
 ###脚注
 * 实现方式如下
  hello[^hello]
