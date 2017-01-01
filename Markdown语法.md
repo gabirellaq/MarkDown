@@ -14,7 +14,7 @@
 （建议：一个文档中只是用一种无序列表的表示方法）
 ###有序列表
 * 使用数字后面跟上句号。
- ###链接
+###链接
 markdown中右两种方式，实现链接，分别问内联方式和引用方式。
 * 内联方式：This is an [baidu link](http://www.baidu.com)
 * 引用方式： I get 10 times more traffic from [Google][1] than from [Yahoo][2] or [MSN][3]
@@ -24,7 +24,7 @@ markdown中右两种方式，实现链接，分别问内联方式和引用方式
 ###图片
 图片的处理方式和链接的处理方式，非常的类似
 * 内联方式：![alt text](/path/to/img.jpg "Title")
-example:![联系素材](markdownM.png)
+* example:![联系素材](markdownM.png)
 * 引用方式:
 ![alt text][id]
 [id]:/path/to/img.jpg "Title"
@@ -34,15 +34,15 @@ HTML中所谓的code，实现方式有两种
 * 第二种： 大片文字需要实现代码框。使用tab和四个空格
             <html>
             <head></head>
-             <body>
-             <h1>hello 2017</h1>
-             </body>
+            <body>
+            <h1>hello 2017</h1>
+            </body>
             </html>
 ###脚注
 * 实现方式如下
  hello[^hello]
 [^hello]:hi
-11。 ###下划线
+###下划线
 * 在空白行下方添加三条‘-’横线。
 
 ---
