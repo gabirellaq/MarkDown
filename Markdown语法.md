@@ -9,9 +9,9 @@
 （blockquote）
 * 通过在文字开头加“>”表示块注释。（当 > 和文字之间添加五个Blank时，块注释的文字会有变化。）
 
->aaaaaaaaaaaa  <br>
->aaaaaaaaaaaaaaaaaaaaaa<br>
->aaaaaaaaaaavvvvvvvvvvvvv
+>     aaaaaaaaaaaa  <br>
+>     aaaaaaaaaaaaaaaaaaaaaa<br>
+>aaaaaaaaaaavvvvvvvvvvvvv<br>
 >ddddddddddddddd
 >dcccccccccccc
 
@@ -51,12 +51,15 @@ HTML中所谓的code，实现方式有两种
 <pre>
    <p>hello 2017</p>
 </pre>
+
 ###脚注
 * 实现方式如下
  hello[^hello]
+
+
 [^hello]:hi
 
 ###下划线
 * 在空白行下方添加三条‘-’横线。
 
----
+ ---
