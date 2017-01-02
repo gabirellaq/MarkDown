@@ -59,12 +59,14 @@ HTML中所谓的code，实现方式有两种
 
 ###脚注
 * 实现方式如下
- hello[^hello]
+    hello[^hello]
 
 
-[^hello]:hi
+    [^hello]:hi
 
 ###下划线
 * 在空白行下方添加三条‘-’横线。
 
 - - -
+
+##测试语句
